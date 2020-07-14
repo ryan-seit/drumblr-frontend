@@ -1,0 +1,81 @@
+/* CONTAINERS */
+
+.HeaderContainer {
+  /* border: 2px solid red; */
+  display: flex;
+  margin: auto;
+  margin-top: 40px;
+  height: 29%;
+  width: 95%;
+  background: #000000;
+  box-shadow: inset 0 1px 3px 0 rgba(255,255,255,0.50);
+}
+
+.LogoContainer {
+  /* border: 2px solid red; */
+  order:1;
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 30px;
+  margin-left: .7em;
+  width: 5.5em;
+  height: 100%;
+  font-family: 'tr-909regular';
+  font-size: 30px;
+  color: #BBC5CF;
+  text-align: left;
+}
+
+.DRUMBLRLogo {
+  /* border: 2px solid red; */
+  height: 10%;
+  width: 100%;
+}
+
+.ModelLogo {
+  /* border: 2px solid red; */
+  display: flex;
+  height: 35%;
+  width: 100%;
+}
+
+.ModelLogo h1 {
+  display: flex;
+  margin-top: 0em;
+  font-size: 46px;
+  font-family: MuktaMahee-ExtraBold;
+  color: #057DBE;
+}
+
+.MIDISoundsLogo {
+  /* border: 2px solid red; */
+  height: 40%;
+  width: 100%;
+}
+
+.DialContainer {
+  /* border: 2px solid red; */
+  order: 3;
+  height: 11em;
+  width: 11em;
+  margin: auto;
+  margin-top: 2.5em;
+  /* margin-left: 25px; */
+  background-image: linear-gradient(180deg, #38393D 0%, #0D1216 100%);
+  border: 5px solid #9AA4AD;
+  border-radius: 50%;
+}
+
+.DialImprint {
+  display: flex;
+  margin: auto;
+  margin-top: 7px;
+  height: 3.5em;
+  width: 3.5em;
+  background-image: radial-gradient(circle at top, #0b0b0b 50%, #5B5C61 100%, #000000 200%);
+  border-radius: 50%;
+}
+
+/* BUTTONS */

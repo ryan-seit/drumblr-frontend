@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'lcdnormal';
+  src: url('./fonts/lcd-n___-webfont.woff2') format('woff2'), url('./fonts/lcd-n___-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'tr-909regular';
+  src: url('./fonts/tr-909-webfont.woff2') format('woff2'), url('./fonts/tr-909-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.App {
+  /* border: 2px solid red; */
+  font-family: 'tr-909regular';
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 3em;
+  height: 900px;
+  width: 900px;
+  background-image: linear-gradient(180deg, #7B8795 0%, #EAEAEA 2%, #9DADBE 3%, #8C9EB4 8%, #8A9BAD 96%, #8AA1B1 96%, #68727E 97%, #98A2AB 100%);
+  border-radius: 11px;
+  box-shadow: 12px 14px 17px 0 rgba(0,0,0,0.80);
+}
+
+.BtnLabel {
+  height: 70px;
+  width: 80px;
+  background-image: linear-gradient(0deg, rgba(216,216,216,0.00) 62%, #212227 62%);
+  border: 2px solid #282C2F;
+  border-radius: 9px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.MIDISounds {
+  margin: auto;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+} */
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+/* .App-link {
+  color: #61dafb;
+} */
